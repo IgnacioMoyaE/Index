@@ -1,0 +1,52 @@
+body {
+	font-family: arial, helvetica;
+	
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	background: #F34E4B;
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: white;
+	padding: 16px;
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover {
+	background: #ef8354;
+}
+
+.contenedor img {
+	width: 100%;
+	max-width: 280px;
+	height: 200px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+}
+
+.contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contenedor article {
+	margin: 20px;
+}
+
+.contenedor article p {
+	font-family: arial, helvetica;
+}
+
